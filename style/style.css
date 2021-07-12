@@ -1,0 +1,184 @@
+
+/* ---------------
+    body style
+------------- */
+
+body{
+    background-color: rgba(224, 214, 214, 0.726);
+}
+
+/* ----------------------
+    header area style
+--------------------------*/
+header{
+    background-color: rgba(44, 44, 238, 0.726);
+    height: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+
+}
+
+.logo a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.user-img img{
+    width: 30px;
+    height:30px;
+    margin-left: -30px;
+}
+
+/* ----------------------
+    TOP-PLAYER-style
+--------------------------*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+   
+}
+.top-players{
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 40px;
+ 
+}
+
+.top-plyer-tile{
+    margin-left: 40px;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px !important;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.payer-articale{
+    display: flex;
+    align-items: center;
+}
+.payer-articale img{
+    width: 80px;
+    height: 80px;
+}
+
+.player-name{
+    padding-left: 20px;
+}
+
+hr{
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.top-blogs{
+    margin-left: 30px;
+    
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+}
+.blog-article{
+    display: flex;
+}
+
+.blog-article img{
+    width: 190px;
+    height: 120px;
+}
+.blog-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.author{
+    font-size: 16px;
+}
+
+/* course style */
+
+.Lates-Course{
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+ 
+}
+.course-title{
+    margin-left: 30px;
+}
+.course{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30px;
+    padding-bottom: 40px;
+}
+.course-article{
+    padding: 5px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px  silver;
+}
+.course-article img{
+    width: 250px;
+    height: 130px;
+}
+.corse-author{
+    color: rgb(243, 89, 89);
+}
+.course-info{
+    display: flex;
+}
+
+.rating .fa-star, .empty{
+    color: rgba(228, 206, 79, 0.883);
+}
+
+.rating-point, .course-time{
+    margin-left: 10px;
+}
+.course-time{
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 5px;
+    color: red;
+    background-color: rgba(247, 127, 127, 0.692);
+}
+span{
+    padding: 5px;
+}
